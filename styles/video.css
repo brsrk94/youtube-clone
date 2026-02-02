@@ -1,0 +1,100 @@
+.thumbnail {
+    width: 100%; /* setting to 100% coz while making website
+    responsive , it'll use it's original size so it take 100% of div container. */
+
+    /* height: 300px;
+    /* in images attribute if you'll set a height , it will change the image resoultion 
+    and tear down the image quality so always set the width , it will be in normal shape 
+    naturally */
+     /*object-fit: cover; npil - this will cover the above 300x300 px area */
+    /* object-fit: contain; */ /* npil - still contain in 300x300 but in shrinked format */
+    /* we can also adjust like which part of image we wanted to see?  we can use object-position*/
+    /* object-position:top; */ /*npil - this can move to top and bottom as well */
+    /* border-width: 2px; */
+    /* border-color: red; */
+    /* border-style: solid; */ 
+
+    /* css-display-properties:
+    1. Block Element = takes up the entire line . p tag by default is a block element
+    2. inline-block-element = only takes up as much space as needed, jitna text hain utna hi space lega
+    3. inline element = they appear within a line of text
+    */
+
+}
+
+.video-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 260px;
+}
+
+
+
+.video-info {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.pfp {
+    width: 36px; /* so it will take the 100% of the width given in channel picture */
+    vertical-align: top;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-author {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color:rgb(96, 96, 96) ;
+
+
+}
+
+.video-views {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+}
+
+
+.video-info-grid {
+   display: grid;
+   grid-template-columns: 50px 1fr;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 38px;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-family: Outfit;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    font-size: 500;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
+
+/* position : relative ke aandar -> position absolute */

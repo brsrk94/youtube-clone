@@ -1,0 +1,46 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px; /* always match with your headers height */
+    background-color: white;
+    color: black;
+    width: 72px;
+
+    border-right-width: 1px;
+    border-right-color: rgb(228,228,228);
+    border-right-style: solid;
+    z-index: 200;
+    padding-top: 4px;
+
+}
+
+.sidebar-link {
+    height: 75px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* always put flex in main div */
+    flex-direction: column;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235,235,235);
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+
+}
+
+
+.sidebar-link div {
+    font-family: Outfit;
+    font-size: 10px;
+
+}
+
+/* .sidebar-link img - this will target all the images that are 
+inside the .sidebar-link  */
