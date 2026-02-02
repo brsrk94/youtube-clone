@@ -81,6 +81,29 @@
     row-gap: 38px;
 }
 
+@media (max-width: 750px) {  /* use to make website responsive */
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+
+@media (min-width: 1000px ){
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
 .video-time {
     background-color: black;
     color: white;
@@ -90,10 +113,7 @@
     right: 5px;
     font-size: 12px;
     font-size: 500;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;  /* padding-top padding-right padding-bottom padding-left (same goes for margins as well */
     border-radius: 2px;
 }
 
